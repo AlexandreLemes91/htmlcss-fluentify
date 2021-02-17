@@ -7,3 +7,55 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header */
+header .container{
+    line-height: 60px;
+    background-color: blue;
+}
+
+header .container .logo{
+    width: 15%;
+}
+
+/* nav */
+header .container .nav{
+    width: 45%;
+}
+
+header .container .nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+
+header .container .nav li a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+}
+
+header .container .login{
+    width: 40%;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+
