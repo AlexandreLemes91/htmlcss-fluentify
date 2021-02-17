@@ -49,6 +49,7 @@ h2{
     border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
+    line-height: 1;
 }
 
 .btn.btn-transparent{
@@ -59,11 +60,13 @@ h2{
 .btn-big{
     padding: 15px 8px;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 /* header */
 header{
     background-color: rgb(13, 50 , 90);
+    font-size: 10px;
 }
 
 header .nav-bar{
@@ -88,9 +91,9 @@ header .container li{
     margin-left: 15px;
 }
 
-a{
+li a,
+a.btn{
     text-decoration: none;
-    font-size: 10px;
     color: white;
 }
 
@@ -169,11 +172,42 @@ header .container .nav-login a{
 }
 
 /* last info sect */
-.last-info .w-50:first-child{
-    text-align: center;
+.last-info h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
 }
 
-.last-info .w-50:last-child{
-    color: black;
+.last-info .container div{
+    padding: 20px 30px;
+}
 
+.last-info p{
+    margin: 20px 0px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(211, 211, 211);
+    line-height: 90px;
+    color: black;
+}
+
+form{
+    color: rgb( 128, 128, 128);
+    text-align: right;
+}
+
+select{
+    border: none;
+    margin: 0 20px;
+    background-color: rgb(211, 211, 211);
+    width: 150px;
+    border-bottom: 1px solid rgb( 128, 128, 128);
+    font-size: 16px;
+    color: rgb( 128, 128, 128);
+}
+
+option:first-child{
+    display: none;
 }
