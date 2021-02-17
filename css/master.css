@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: rgb( 128, 128, 128);
 }
 
 /* utilities */
@@ -111,4 +112,35 @@ header .container .nav-login a{
     top: 50%;
     transform: translateY(-50%);
     color: white ;
+    font-size: 40px;
+}
+
+/* intro bar */
+.intro-bar{
+    background-color: rgb(211, 211, 211);
+    padding: 30px;
+    text-align: center;
+}
+
+.intro-bar h2{
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+
+/* col-articles */
+.col-articles{
+    height: 1000px;
+    background-color: red;
+}
+
+.col-articles .container{
+    background-color: grey;
+}
+
+.col-articles .container .col{
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: rgba(200, 200, 200, .2);
 }
