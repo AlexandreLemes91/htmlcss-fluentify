@@ -10,6 +10,10 @@ body{
 }
 
 /* utilities */
+h2{
+    color: rgb(124, 187, 1);
+    font-size: 20px;
+}
 .clearfix{
     content: "";
     display: table;
@@ -141,6 +145,29 @@ header .container .nav-login a{
 
 .col-articles .container .col{
     width: calc(100% / 3);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
     height: 500px;
     background-color: rgba(200, 200, 200, .2);
+}
+
+.col .img-container{
+    padding: 30px;
+    height: 250px;
+    background-color: rgba(200, 200, 200, .2);
+}
+
+.col .text h2::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 20%;
+    margin: 30px auto;
+    background-color: rgb( 128, 128, 128);
+}
+
+.col .img-container img{
+    height: 100%;
 }
