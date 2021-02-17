@@ -12,8 +12,16 @@ body{
 /* utilities */
 h2{
     color: rgb(124, 187, 1);
-    font-size: 20px;
+    font-size: 22px;
 }
+
+.hr{
+    width: 90vw;
+    height: 1px;
+    margin: 30px auto;
+    background-color: rgb( 128, 128, 128);
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -134,29 +142,17 @@ header .container .nav-login a{
 }
 
 /* col-articles */
-.col-articles{
-    height: 1000px;
-    background-color: red;
-}
-
-.col-articles .container{
-    background-color: grey;
-}
-
 .col-articles .container .col{
     width: calc(100% / 3);
     text-align: center;
     padding: 10px;
     font-size: 14px;
     font-weight: 400;
-    height: 500px;
-    background-color: rgba(200, 200, 200, .2);
 }
 
 .col .img-container{
     padding: 30px;
     height: 250px;
-    background-color: rgba(200, 200, 200, .2);
 }
 
 .col .text h2::after{
@@ -170,4 +166,14 @@ header .container .nav-login a{
 
 .col .img-container img{
     height: 100%;
+}
+
+/* last info sect */
+.last-info .w-50:first-child{
+    text-align: center;
+}
+
+.last-info .w-50:last-child{
+    color: black;
+
 }
