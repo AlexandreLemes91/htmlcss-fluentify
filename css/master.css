@@ -63,7 +63,15 @@ h2{
     font-size: 18px;
 }
 
-/* header */
+/* help------------------------------------------------ */
+div.help a{
+    position: fixed;
+    bottom: 0px;
+    left: calc(50% + 550px);
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* header---------------------------------------------- */
 header{
     background-color: rgb(13, 50 , 90);
     font-size: 10px;
@@ -97,7 +105,7 @@ a.btn{
     color: white;
 }
 
-/* nav-login */
+/* nav-login-------------------------------------------------- */
 header .container .nav-login{
     width: 40%;
     text-align: right;
@@ -107,7 +115,7 @@ header .container .nav-login a{
     line-height: 1;
 }
 
-/* jumbotron */
+/* jumbotron---------------------------------------------------- */
 .jumbotron{
     height: 480px;
     background-color: rgb(13, 50 , 90);
@@ -130,7 +138,7 @@ header .container .nav-login a{
     font-size: 40px;
 }
 
-/* intro bar */
+/* intro bar----------------------------------------------- */
 .intro-bar{
     background-color: rgb(211, 211, 211);
     padding: 30px;
@@ -144,7 +152,7 @@ header .container .nav-login a{
     color: black;
 }
 
-/* col-articles */
+/* col-articles------------------------------------------- */
 .col-articles .container .col{
     width: calc(100% / 3);
     text-align: center;
@@ -171,7 +179,7 @@ header .container .nav-login a{
     height: 100%;
 }
 
-/* last info sect */
+/* last info sect--------------------------------------------- */
 .last-info h2{
     font-size: 30px;
     font-weight: 400;
@@ -186,7 +194,11 @@ header .container .nav-login a{
     margin: 20px 0px;
 }
 
-/* footer */
+.last-info a{
+    color: blue;
+}
+
+/* footer---------------------------------------------------- */
 footer{
     background-color: rgb(211, 211, 211);
     line-height: 90px;
