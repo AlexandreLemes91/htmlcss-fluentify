@@ -11,6 +11,10 @@ body{
 
 /* utilities---------------------------------------------- */
 h2{
+    color: black;
+}
+
+h3{
     color: rgb(124, 187, 1);
     font-size: 22px;
 }
@@ -19,13 +23,19 @@ h2{
     width: 90vw;
     height: 1px;
     margin: 30px auto;
-    background-color: rgb( 128, 128, 128);
+    background-color: rgba( 128, 128, 128, 0.5);
 }
 
 .clearfix{
     content: "";
     display: table;
     clear: both;
+
+}
+.clearfix-right{
+    content: "";
+    display: table;
+    clear: right;
 }
 
 .float-left{
@@ -39,6 +49,16 @@ h2{
 
 .w-50{
     width: 50%;
+}
+
+.relative{
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
 }
 
 .btn{
@@ -166,40 +186,40 @@ header .container .nav-login a{
     height: 250px;
 }
 
-.col .text h2::after{
+.col .text h3::after{
     display: block;
     content: "";
     height: 2px;
     width: 20%;
     margin: 30px auto;
-    background-color: rgb( 128, 128, 128);
+    background-color: rgba( 128, 128, 128, 0.5);
 }
 
 .col .img-container img{
     height: 100%;
 }
 
-/* last info sect--------------------------------------------- */
-.last-info h2{
+/* info1 sect--------------------------------------------- */
+.info1 h2{
     font-size: 30px;
     font-weight: 400;
     color: black;
 }
 
-.last-info .container div{
+.info1 .container div{
     padding: 20px 30px;
 }
 
-.last-info p{
+.info1 p{
     margin: 20px 0px;
 }
 
-.last-info a{
+.info1 a{
     color: blue;
 }
 
-/* footer---------------------------------------------------- */
-footer{
+/* middle-footer---------------------------------------------------- */
+.middle-footer{
     background-color: rgb(211, 211, 211);
     line-height: 90px;
     color: black;
@@ -210,7 +230,7 @@ form{
     text-align: right;
 }
 
-footer select{
+.middle-footer select{
     border: none;
     margin: 0 20px;
     background-color: rgb(211, 211, 211);
@@ -222,4 +242,27 @@ footer select{
 
 option:first-child{
     display: none;
+}
+
+/* sect info2--------------------------------- */
+.info2 .container > .w-50{
+    padding: 80px 40px;
+} 
+
+.info2 .container > .w-50 > p{
+    margin: 30px 0;
+}
+
+.info2 .w-50 a.btn{
+    margin: 0px;
+}
+
+.info2 .w-50 .w-50 > p{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/* info----------------------------------------------- */
+.info3{
+    
 }
